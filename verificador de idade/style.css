@@ -1,0 +1,29 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    color: black;
+    width: max-content;
+    text-align: start;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.329);
+}
+
+#res {
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+} 
