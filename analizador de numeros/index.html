@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Analizador de Números</h1></header>
+    <section>
+        <p>
+            Número:<input type="number" name="txnum" id="txnum" min="1">
+            <input type="button" value="Gerar" onclick="adicionar()">
+        </p>
+        <select name="numero" id="seltab" size="10">
+        </select>
+        <input type="button" value="Finalizar" onclick="finalizar()">
+
+        <p id="res"></p>
+    </section>
+    <footer>
+        <p>&copy;<em>Isaac</em></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
