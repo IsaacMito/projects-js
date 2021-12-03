@@ -5,7 +5,6 @@ var pMensage = document.getElementById("mensage");
 
 function verificar() {
     
-
     if (inpIdade.value == "" || (!radSexo[0].checked && !radSexo[1].checked)) {
 
         pMensage.innerText = "Preencha todos os campos acima!";
@@ -21,13 +20,13 @@ function verificar() {
             inpIdade.value = anoAtual;
         }
 
-        idade = anoAtual - inpIdade.value;
-        
         if (radSexo[0].checked) {
             sexo = "m";
         } else {
             sexo = "f";
         }
+
+        idade = anoAtual - inpIdade.value;
 
         if (idade <= 0){
 
